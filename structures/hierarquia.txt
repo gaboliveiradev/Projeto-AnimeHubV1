@@ -1,0 +1,6 @@
+0 - Membro
+1 - Burgues
+2 - Ajudantes
+4 - Gerente
+5 - Diretor
+6 - CEO

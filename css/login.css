@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #fff url(../image/bg-login.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-login {
+    background: #000;
+    width: 430px;
+    height: 430px;
+}
+
+.logo {
+    text-transform: uppercase;
+    width: 430px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+.box-title {
+    border-bottom: 1px solid #303030;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.box-title h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 0;
+
+}
+
+.login {
+    margin: 20px;
+}
+
+label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: none;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: #d3d3d3;
+}
+
+.logar-btn {
+    cursor: pointer;
+    background-color: goldenrod;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-top: 15px;
+}  
+
+.outros {
+    border: 2px solid goldenrod;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.outros:hover {
+    border: 2px dashed gold;
+}
+
+.outros a {
+    text-decoration: none;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outros a:hover {
+    color: gold;
+}
+
+.outros a.esqueci-senha {
+    color: #FA6F6F;
+    text-decoration: underline;
+}
+
+.logo h1 span {
+    color: goldenrod;
+}
